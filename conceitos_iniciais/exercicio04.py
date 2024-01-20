@@ -1,10 +1,7 @@
 # Escreva um programa que calcule o salário líquido. Lembrando-se de declarar o salário bruto e o percentual de desconto do Imposto de Renda.
 # Referência: 1903,98 = isento; 1903,99 e 2826,65 = 7,5%; 2826,66 e 3751,05 = 15%; 3751,06 e 4664,68 = 22,5%; acima de 4664,68 = 27,5%
 
-print("\nVamos calcular seu salário líquido?\n")
-
 salario_bruto = float(input("Digite seu salário bruto: R$ "))
-
 
 if salario_bruto <= 1903.98:
     print(f"Seu salário líquido é R$ {salario_bruto:.2f} e é isento de IR.")
