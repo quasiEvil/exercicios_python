@@ -1,11 +1,11 @@
 # Faça um programa que peça a quantidade de quilômetros. Transforme em metros, centímetros e milímetros.
 
-km = int(input("Quilômetros: "))
+quilometros = int(input("Quilômetros: "))
 
-m = km * 1000
-cm = m * 100
-mm = cm * 10
+metros = quilometros * 1000
+centimetros = metros * 100
+milimetros = centimetros * 10
 
-print(f"{km}km são {m} metros")
-print(f"{km}km são {cm} centímetros")
-print(f"{km}km são {mm} milímetros")
+print(f"{quilometros}km são {metros} metros")
+print(f"{quilometros}km são {centimetros} centímetros")
+print(f"{quilometros}km são {milimetros} milímetros")
